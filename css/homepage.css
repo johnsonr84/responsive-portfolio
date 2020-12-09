@@ -23,18 +23,21 @@ p {
 }
 
 .container {
-    margin: 10px;
+    margin: 5rem;
 }
 
 .card {
     border: none;
 }
 
-.homepagePhoto_1 {
-    height: 250px;
+img.img.img-thumbnail {
+    border: none;
+    height: auto;
     width: auto;
-    padding: 5px;
-    margin: 5px;
+}
+
+.homepagePhoto_1 {
+
 }
 
 .front-end {
