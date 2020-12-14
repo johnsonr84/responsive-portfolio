@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+a.navbar-brand.nav-item.active {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 24px;
+}
+
+.navbar {
+    opacity: 0.9;
+}
+
+.nav-link {
+    color: black;
+}
+.fa, .fas, .fab {
+    color: black;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.container {
+    margin: 5rem;
+}
+
+.card {
+    border: none;
+    margin: 2rem;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+
+  .nav-bar {
+      text-align: center; 
+  }
+
+ .nav-social {
+     padding-top: 0.5rem;
+ } 
+
+
+footer {
+    width: 100%;
+    height: 1rem;
+    color:rgba(255,255,255,.5);
+    background-color: #343a40;
+    justify-content: center;
+}
