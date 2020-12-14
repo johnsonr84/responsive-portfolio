@@ -1,0 +1,56 @@
+/* navbar stlyes */
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+a.navbar-brand.nav-item.active {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 24px;
+}
+
+.navbar {
+    opacity: 0.9;
+}
+
+.nav-link {
+    color: black;
+}
+
+.fa {
+    color: black;
+    padding: 12px;
+}
+
+.container {
+    margin: 5rem;
+}
+
+.card {
+    border: none;
+    margin: 2rem;
+}
+
+/* .row {
+    margin: 2rem;
+} */
+
+/* .card {
+    margin: 2rem:
+}
+
+.ccol-lg-6 {
+    margin: 20px;
+    padding: 20px;
+} */

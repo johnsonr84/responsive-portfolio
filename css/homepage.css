@@ -1,5 +1,5 @@
 body {
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -64,6 +64,25 @@ img.img.img-thumbnail {
     font-weight: 700; 
 }
 
+ul {
+    list-style-type: none;
+  }
+
+a {
+    justify-content: center;
+}
+
+  .nav-bar {
+      margin: 0.5rem;
+      opacity: 0.9;  
+      text-align: center;   
+  }
+
+.fab {
+    color: black;
+    padding: 12px;
+}
+
 .footer {
     bottom: 0;
     width: 100%;
@@ -71,4 +90,5 @@ img.img.img-thumbnail {
     line-height: 60px;
     color:rgba(255,255,255,.5);
     background-color: #343a40;
+    justify-content: center;
 }
