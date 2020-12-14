@@ -27,10 +27,10 @@ a.navbar-brand.nav-item.active {
 .nav-link {
     color: black;
 }
-
-.fa {
+.fa, .fas, .fab {
     color: black;
     padding: 12px;
+    font-size: 18px;
 }
 
 .container {
@@ -42,16 +42,24 @@ a.navbar-brand.nav-item.active {
     margin: 2rem;
 }
 
+ul {
+    list-style-type: none;
+  }
 
-/* .row {
-    margin: 2rem;
-} */
 
-/* .card {
-    margin: 2rem:
+  .nav-bar {
+      text-align: center; 
+  }
+
+ .nav-social {
+     padding-top: 0.5rem;
+ } 
+
+
+footer {
+    width: 100%;
+    height: 1rem;
+    color:rgba(255,255,255,.5);
+    background-color: #343a40;
+    justify-content: center;
 }
-
-.ccol-lg-6 {
-    margin: 20px;
-    padding: 20px;
-} */
