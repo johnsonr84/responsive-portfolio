@@ -1,7 +1,7 @@
 /* navbar stlyes */
 
 body {
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -41,6 +41,7 @@ a.navbar-brand.nav-item.active {
     border: none;
     margin: 2rem;
 }
+
 
 /* .row {
     margin: 2rem;
