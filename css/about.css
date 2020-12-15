@@ -40,9 +40,17 @@ a.navbar-brand.nav-item.active {
     margin: 2rem;
 }
 
+img.img-thumbnail {
+    border: none;
+}
+
 ul {
     list-style-type: none;
   }
+
+.row {
+    padding-top: 2rem;
+}
 
 
   .nav-bar {
