@@ -44,6 +44,10 @@ ul {
     list-style-type: none;
   }
 
+  .form-row {
+      /* width: 7rem; */
+  }
+
 
   .nav-bar {
       text-align: center; 
