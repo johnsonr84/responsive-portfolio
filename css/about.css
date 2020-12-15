@@ -35,6 +35,19 @@ a.navbar-brand.nav-item.active {
     margin: 5rem;
 }
 
+.main-title {
+    font-size: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+small {
+    padding: 0;
+    top: -25px;
+    position: relative;
+    left: 30px;
+}
+
 .card {
     border: none;
     margin: 2rem;
