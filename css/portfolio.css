@@ -54,12 +54,3 @@ ul {
  .nav-social {
      padding-top: 0.5rem;
  } 
-
-
-footer {
-    width: 100%;
-    height: 1rem;
-    color:rgba(255,255,255,.5);
-    background-color: #343a40;
-    justify-content: center;
-}
