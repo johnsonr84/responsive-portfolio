@@ -6,14 +6,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- homepage.css -->
-    <link rel="stylesheet" href="./css/homepage.css">
+    <!-- Bootstrap & CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/homepage.css">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- font awesome style link-->
     <script src="https://kit.fontawesome.com/c8928d745c.js" crossorigin="anonymous"></script>
 </head>
@@ -47,11 +46,13 @@
     </nav>
     <br>
 
-    <div class="container">
+    <div id="main" class="container">
         <!-- row with image to the left and text to the right -->
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <div><h1 class="main-title">Hey!</h1><small>Thanks for stopping by. </small></div>
+                <div>
+                    <h1 class="main-title">Hey!</h1><small>Thanks for stopping by. </small>
+                </div>
                 <p>
                     I am Rob, a <b class="front-end">Front End</b> and <b class="word-press">WordPress Developer</b>
                     who is passionate about building projects to help
@@ -70,9 +71,21 @@
                 <img class="img img-thumbnail" src="./images/rob_1.png">
             </div>
         </div>
+        <div id="github" class="container px-4">
+            <div class="row gx-5">
+                <div class="col text-center">
+                    <a class="" href="https://github.com/johnsonr84?tab=repositories" target="blank" style="text-decoration:none;">Repositories</a>
+                    <div id="git-repos" class="p-3">Custom column padding</div>
+                </div>
+                <div class="col text-center">
+                    <a class="" href="https://github.com/johnsonr84" target="blank" style="text-decoration:none;">Contributions</a>
+                    <div id="git-commits" class="p-3">Custom column padding</div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- sticky footer -->
-    <footer class="mt-auto" id="footer">
+    <footer class="footer">
         <div class="container">
             <div class="nav nav-bar fixed-bottom bg-white justify-content-center">
                 <div class="row">

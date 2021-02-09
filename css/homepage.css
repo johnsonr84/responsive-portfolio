@@ -18,6 +18,14 @@ a.navbar-brand.nav-item.active {
     font-size: 24px;
 }
 
+#github a {
+    /* font-family: 'Roboto', sans-serif;   */
+}
+
+.col {
+    display: block;
+}
+
 .navbar {
     opacity: 0.9;
 }
@@ -30,6 +38,7 @@ a.navbar-brand.nav-item.active {
     color: black;
     padding: 12px;
     font-size: 18px;
+    text-decoration: none;
 }
 
 .main-title {
@@ -49,8 +58,13 @@ h1 {
     display: block;
 }
 
-.container {
-    margin: 5rem;
+h2 {
+    /* font-family: 'Roboto Mono', sans-serif; */
+}
+
+#main {
+    margin-top: 1rem;
+    margin-bottom: 10rem;
 }
 
 .card {
@@ -61,10 +75,11 @@ img.img-thumbnail {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0rem;
     max-height: 600px;
     border: none;
-    height: auto;
-    width: auto;
+    /* height: auto;
+    width: auto; */
 }
 
 .front-end {
@@ -88,12 +103,42 @@ ul {
     list-style-type: none;
   }
 
+.col a {
+    color: gray;
+    font-size: 30px;
+    
+}
+
+#github {
+    padding: 5rem;
+    height: 10rem;
+}
+
+.p-3 {
+    color: lightblue;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3rem;
+    border: solid 1px;
+}
 
   .nav-bar {
       text-align: center; 
+      position: relative;
   }
 
  .nav-social {
      padding-top: 0.5rem;
  } 
+
+footer {
+    bottom: 0;
+    color:red;
+    height: 2em;
+    left: 0;
+    position: relative;
+    font-size: small;
+    width:100%;
+}
 
