@@ -18,9 +18,9 @@ a.navbar-brand.nav-item.active {
     font-size: 24px;
 }
 
-#github a {
-    /* font-family: 'Roboto', sans-serif;   */
-}
+/* .fab.fa-github-square a {
+    font-family: 'Roboto', sans-serif;  
+} */
 
 .col {
     display: block;
@@ -104,18 +104,17 @@ ul {
   }
 
 .col a {
-    color: gray;
+    color: black;
     font-size: 30px;
     
 }
 
 #github {
     padding: 5rem;
-    height: 10rem;
+    height: 15rem;
 }
 
 .p-3 {
-    color: lightblue;
     font-size: 24px;
     font-weight: 700;
     text-align: center;
@@ -131,8 +130,22 @@ ul {
  .nav-social {
      padding-top: 0.5rem;
  } 
+ .Counter {
+     color: gray;
+    font-size: 170px;
+    /* margin-bottom: 5rem; */
+ }
+ h1.dev-stats {
+     font-size: auto;
+     font-weight: 700;
+     color: black;
+     writing-mode: vertical-lr;
+     text-orientation: mixed;
+     margin-top: auto;
+     margin-bottom: auto;
+ }
 
-footer {
+/* footer {
     bottom: 0;
     color:red;
     height: 2em;
@@ -140,5 +153,5 @@ footer {
     position: relative;
     font-size: small;
     width:100%;
-}
+} */
 
