@@ -9,7 +9,7 @@
     <!-- Bootstrap & CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/homepage.css">
+    <link rel="stylesheet" href="./css/homepage.css">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap" rel="stylesheet">
@@ -46,7 +46,7 @@
     </nav>
     <br>
 
-    <div id="main" class="container">
+    <div id="main" class="container-fluid intro">
         <!-- row with image to the left and text to the right -->
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -71,32 +71,50 @@
                 <img class="img img-thumbnail" src="./images/rob_1.png">
             </div>
         </div>
-        <div id="github" class="container px-4 container-fluid">
-            <div class="row gx-5">          
-                <div class="col text-center">
-                    <!-- <a class="" href="https://github.com/johnsonr84?tab=repositories" target="blank" style="text-decoration:none;">Repositories</a> -->
-                    <!-- <span id="git-counter" class="p-3"></span> -->
-                    <!-- <div id="git-repos" class="p-3">Custom column padding</div> -->
-                    <a class="fab fa-github-square" href="https://github.com/johnsonr84?tab=repositories" style="text-decoration:none;" target="blank"></a>
-                    <a style="text-decoration:none; font-family: 'Roboto', sans-serif;" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:24578370,&quot;target&quot;:&quot;TAB_REPOSITORIES&quot;,&quot;user_id&quot;:24578370,&quot;originating_url&quot;:&quot;https://github.com/johnsonr84?_pjax=%23js-pjax-container&quot;}}" data-hydro-click-hmac="3715c69c1b0275aaa94a22bb38b0d24279dff4e95379f411a74124538b0fc668" href="/johnsonr84?tab=repositories">
-                        <!-- <svg class="fab fa-github-square" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg> -->
-                        Repositories <br>
-                        <span title="26" class="Counter">26</span>
-                  </a>
+    </div>
+    <!-- Stats Container > -->
+    <div class="container-fluid dev">
+        <div class="row">
+            <h1 class="dev-stats">Developer Stats</h1>
+        </div>
+    </div>
+    <div class="container-fluid numbers">
+        <div class="row">
+            <div class="col-sm text-center">
+                <div class="git-po">
+                    <a class="fab fa-github" href="https://github.com/johnsonr84?tab=repositories" target="blank"></a>
+                    <a class="repositories" href="https://github.com/johnsonr84?tab=repositories"
+                        target="blank">Repositories</a>
                 </div>
-                <div class="col text-center">
-                    <a class="fab fa-git-square" href="https://github.com/johnsonr84" style="text-decoration:none;" target="blank"></a>
-                    <a href="https://github.com/johnsonr84" target="blank" style="text-decoration:none; font-family: 'Roboto', sans-serif;">Contributions</a>
-                    <!-- <div id="git-commits" class="p-3">Custom column padding</div> -->
+                <div>
+                    <span title="26" class="repos">27</span>
                 </div>
-                <h1 class="dev-stats">DEV STATS</h1>
+            </div>
+            <div class="col-sm text-center">
+                <div class="git-con">
+                    <a class="fab fa-git-square" href="https://github.com/johnsonr84" target="blank"></a>
+                    <a class="contributions" href="https://github.com/johnsonr84" target="blank">Contributions</a>
+                </div>
+                <div>
+                    <span class="commits">264</span>
+                </div>
+            </div>
+            <div class="col-sm text-center">
+                <div class="wp-up">
+                    <a class="fab fa-wordpress" href="https://github.com/johnsonr84" target="blank"></a>
+                    <a class="wp-sites" href="https://github.com/johnsonr84" target="blank">WP Sites</a>
+                </div>
+                <div>
+                    <span title="4" class="built">4</span>
+                </div>
             </div>
         </div>
     </div>
+
     <!-- sticky footer -->
     <footer class="footer">
         <div class="container">
-            <div class="nav nav-bar fixed-bottom bg-white justify-content-center">
+            <div class="nav-bar fixed-bottom bg-white justify-content-center">
                 <div class="row">
                     <div class="col-12">
                         <ul class="social-contact">
