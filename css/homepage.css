@@ -48,7 +48,7 @@ small {
 .btn.btn-lg {
     color: white;
     background-color: darkgrey;
-    float: right;
+    float: center;
 }
 .btn.btn-lg:hover {
     color: white;
@@ -59,6 +59,7 @@ small {
     margin-top: 1rem;
     padding-left: 2rem;
     padding-right: 1rem;
+
 }
 
 .container-fluid.numbers {
@@ -71,24 +72,22 @@ small {
     background-color:#323136;
     font-size: auto;
     font-weight: 700;
-    justify-content: center;
      /* writing-mode: vertical-lr;
      text-orientation: mixed; */
     padding-left: 3rem;
-    padding-right: 1rem;
+    padding-right: 3rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
  }
 
 img.img-thumbnail {
-    display: block;
+    /* display: block; */
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0rem;
     max-height: 600px;
     border: none;
-    /* height: auto;
-    width: auto; */
+    border-radius: none;
+    padding: 0;
 }
 
 .front-end {
@@ -110,32 +109,31 @@ img.img-thumbnail {
     font-weight: 700; 
 }
 
-
 ul {
     list-style-type: none;
-  }
+}
 
-  .git-po, .git-con, .wp-up {
+.git-po, .git-con, .wp-up {
     position: block;
-  }
+}
 
- .contributions, .repositories,
+.contributions, .repositories,
  .wp-sites {
     color: #323136;
     font-size: 30px
- }
+}
 
  a.fab.fa-github, a.fab.fa-git-square, a.fab.fa-wordpress {
      color: red;
     text-decoration:none;
     font-size: 30px;
- }
+}
 
- .repos, .commits, .built {
+.repos, .commits, .built {
     color: darkgrey;
     font-size: 100px;
     /* margin-bottom: 5rem; */
-  }
+}
 
 /* All footer/ navbar styling */
  .nav-bar {
