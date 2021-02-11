@@ -183,6 +183,14 @@ a.fab.fa-github:hover, a.fab.fa-git-square:hover, a.fab.fa-wordpress:hover {
    padding-top: 0.5rem;
 } 
 
+a.fas.fa-envelope-square, a.fab.fa-linkedin, a.fab.fa-github-square, a.fab.fa-medium {
+    color: black;
+}
+
+a.fas.fa-envelope-square:hover, a.fab.fa-linkedin:hover, a.fab.fa-github-square:hover, a.fab.fa-medium:hover {
+    color: #F7DF1D;
+}
+
 footer {
     padding: 5rem;
     bottom: 0;
