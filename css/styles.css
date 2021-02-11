@@ -54,11 +54,11 @@ small {
     left: 60px;
 }
 
-.btn {
+a.btn, .btn{
     color: white;
     background-color: darkgrey;
 }
-.btn:hover {
+a.btn:hover, .btn:hover {
     color: white;
     background-color: #F7DF1D;
     transform: scale(1.2);
