@@ -79,15 +79,15 @@ small {
 
 .container-fluid.dev {
     color: white;
-    background-color: #F7DF1D;
+    background-color: lightgrey;
     font-size: auto;
     font-weight: 700;
      /* writing-mode: vertical-lr;
      text-orientation: mixed; */
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
  }
 
 img.img-thumbnail {
@@ -142,6 +142,12 @@ ul {
 
 .git-po, .git-con, .wp-up {
     position: block;
+}
+
+.logo {
+    max-height: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .contributions, .repositories,
