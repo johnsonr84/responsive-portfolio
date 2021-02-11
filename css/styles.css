@@ -81,8 +81,8 @@ a.btn:hover, .btn:hover {
     background-color: #F7DF1D;
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 /* h1.dev-stats {
