@@ -158,10 +158,10 @@ ul {
     position: block;
 }
 
-.logo {
-    max-height: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
+.dev-logo {
+    max-height: 30px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
 }
 
 .contributions, .repositories,
@@ -200,7 +200,7 @@ a.fab.fa-github:hover, a.fab.fa-git-square:hover, a.fab.fa-wordpress:hover {
 }
 
 .nav-social {
-   padding-top: 0.5rem;
+   padding-top: 2rem;
 } 
 
 a.fas.fa-envelope-square, a.fab.fa-linkedin, a.fab.fa-github-square, a.fab.fa-medium {
@@ -211,11 +211,15 @@ a.fas.fa-envelope-square:hover, a.fab.fa-linkedin:hover, a.fab.fa-github-square:
     color: #F7DF1D;
 }
 
+div.row.justify-content-center {
+    padding: 1rem;
+}
+
 footer {
     padding: 5rem;
     bottom: 0;
     color:red;
-    height: 2em;
+    height: 3em;
     left: 0;
     position: relative;
     font-size: small;
