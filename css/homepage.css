@@ -77,17 +77,31 @@ small {
     margin-top: 3rem;
 }
 
-.container-fluid.dev {
-    color: white;
-    background-color: lightgrey;
-    font-size: auto;
-    font-weight: 700;
-     /* writing-mode: vertical-lr;
-     text-orientation: mixed; */
+.row.dev {
+    background-color: #F7DF1D;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
+}
+
+/* h1.dev-stats {
+   
+    float: inline-end;
+} */
+
+.row.stats {
+    padding-top: 3rem;
+}
+
+.container-fluid.dev {
+    color: white;
+    /* background-color: #cecbb; */
+    font-size: auto;
+    font-weight: 700;
+     /* writing-mode: vertical-lr;
+     text-orientation: mixed; */
+   
  }
 
 img.img-thumbnail {
