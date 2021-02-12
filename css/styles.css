@@ -188,7 +188,7 @@ a.fab.fa-github:hover, a.fab.fa-git-square:hover, a.fab.fa-wordpress:hover {
 }
 
 
-.repos, .commits, .built {
+#repo-count, #commit-count, #wp-count {
     color: darkgrey;
     font-size: 100px;
     /* margin-bottom: 5rem; */
