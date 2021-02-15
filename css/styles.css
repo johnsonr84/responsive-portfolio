@@ -77,42 +77,25 @@ a.btn:hover, .btn:hover {
     margin-top: 3rem;
 }
 
-.row.dev {
+h1.banner {
+   color: white;
+   margin-bottom: 0;
+}
+.col-12 {
     background-color: #F7DF1D;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-
-/* h1.dev-stats {
-   
-    float: inline-end;
-} */
-
-.row.stats {
-    padding-top: 3rem;
-}
-
-.container-fluid.dev {
-    color: white;
-    /* background-color: #cecbb; */
     font-size: auto;
     font-weight: 700;
-     /* writing-mode: vertical-lr;
-     text-orientation: mixed; */
-   
- }
+}
 
 img.img-thumbnail {
-    /* display: block; */
+    display: block;
     margin-left: auto;
     margin-right: auto;
     max-height: 600px;
     border: none;
     border-radius: none;
     padding: 0;
-}
+} 
 
 .front-end {
     color: black;
@@ -125,8 +108,6 @@ img.img-thumbnail {
     -o-animation: fadein 4s; /* Opera < 12.1 */
     animation: fadein 4s;
 }
-
-
 
 .word-press {
     color: black;
@@ -154,14 +135,12 @@ ul {
     list-style-type: none;
 }
 
-.git-po, .git-con, .wp-up {
+/* .git-po, .git-con, .wp-up {
     position: block;
-}
+} */
 
 .dev-logo {
     max-height: 30px;
-    /* padding-left: 30px;
-    padding-right: 30px; */
 }
 
 .contributions, .repositories,
@@ -194,6 +173,10 @@ a.fab.fa-github:hover, a.fab.fa-git-square:hover, a.fab.fa-wordpress:hover {
     /* margin-bottom: 5rem; */
 }
 
+div.col-lg-6 h3{
+   padding-top: 5rem;
+}
+
 /* All footer/ navbar styling */
  .nav-bar {
     text-align: center; 
@@ -209,10 +192,6 @@ a.fas.fa-envelope-square, a.fab.fa-linkedin, a.fab.fa-github-square, a.fab.fa-me
 
 a.fas.fa-envelope-square:hover, a.fab.fa-linkedin:hover, a.fab.fa-github-square:hover, a.fab.fa-medium:hover {
     color: #F7DF1D;
-}
-
-div.row.justify-content-center {
-    padding: 1rem;
 }
 
 footer {

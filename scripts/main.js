@@ -3,7 +3,6 @@ const commitCount = document.getElementsByID('commit-count')
 
 queryFetch(`
     query { 
-        {
             user(login: "johnsonr84") {
               repositories {
                 totalCount
@@ -17,13 +16,14 @@ queryFetch(`
             }
           }
      `)
+
     .then(data => {
     data.data.user('login: "johnsonr84"').foreach(repository => {
         const totalRepo = document.createElement('totalRepo')
         totalRepo.value = repository.repositories 
         totalRepo.innerText = respository.totalCount
         repoCount.append(totalRepo)
-        console.log(totalRepo)
+        console.log(totalCount)
     })
 }) .then(data => {
     data.data.name.foreach(contribution => {
@@ -32,7 +32,7 @@ queryFetch(`
         totalCommit.innerText = contribution.totalCommitContributions
         commitCount.append(totalCommit)
         console.log(totalCommit)
-    })
+})
 
 function queryFetch(query) {
     return fetch('https://api.github.com/graphql', {
@@ -58,4 +58,5 @@ function queryFetch(query) {
 //           }
 //         }
 //       }
-//     }
+    }
+  })
